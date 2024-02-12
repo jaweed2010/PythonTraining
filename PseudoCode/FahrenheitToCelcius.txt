@@ -1,0 +1,18 @@
+Algorithm::
+1. start
+2. declare float variables C and F
+3. initialize C=0.0
+4. read input for F
+5. assign value to F
+6. calculate C=5/9*(F-32)
+7. print C
+8. end
+
+
+
+PsedoCode::
+
+float c=0.0
+float f = read input
+c=5/9*(F-32)
+print(c)

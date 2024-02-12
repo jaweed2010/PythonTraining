@@ -1,0 +1,19 @@
+Algorithm::
+1. start
+2. declare integer variables num and fact
+3. initialize fact=1
+4. for i from 1 to n, mutiply fact by i and assign the result back to fact
+5. print fact
+6. end
+
+
+
+PsedoCode::
+
+num=read input
+fact=1
+for (i=2;i<=num;i++)
+	fact=fact*i
+print fact
+	
+

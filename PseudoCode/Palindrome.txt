@@ -1,0 +1,20 @@
+Algorithm::
+1. start
+2. declare string variables str and rev
+3. initialize rev=""
+4. read input for str
+4. generate rev value by concatenating str characters in reverse order
+5. if rev= str print True else print False
+6. end
+
+
+PseudoCode::
+str=read input
+rev=""
+n=len(str)
+for(i=n-1;i>=0;i--)
+	rev+=str[i]
+if(rev=str)
+	print("True")
+else
+	print("False")

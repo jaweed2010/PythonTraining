@@ -1,0 +1,21 @@
+Algorithm::
+1. start
+2. declare integer variable 'year'
+3. read input for year
+4. if (year is divisible by 400) or (year is divisible by 4 but not by 100) print True else print False
+5. end
+
+
+
+PsedoCode::
+
+year=read input
+if year%400=0
+	print("True")
+else
+	if year%4=0 and year%100!=0
+		print("True")
+	else
+		print("False")
+	
+

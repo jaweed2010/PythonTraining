@@ -1,0 +1,18 @@
+Algorithm::
+1. start
+2. declare integer variables num
+3. read input for num
+4. if num%2=0, print "Even"
+5. else print "Odd"
+6. end
+
+
+
+PsedoCode::
+
+num=read input
+if num%2=0
+	print("Even")
+else
+	print("Odd")
+

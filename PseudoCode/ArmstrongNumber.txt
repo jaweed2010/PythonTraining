@@ -1,0 +1,27 @@
+Algorithm::
+1. start
+2. declare integer variables num,tmp,sum
+3. initialize sum=0
+4. while number is greater than 0
+	a. find the last digit 
+	b. calculate cube of the digit
+	c. add the cube to the sum
+	d. remove the last digit from num and continue the loop
+5. if tmp=sum, print True else print False
+6. end
+
+
+
+PsedoCode::
+
+num=read input
+tmp=num
+sum=0
+while(num>0)
+	digit=num%10
+	sum=sum+digit*digit*digit
+	num=num/10
+if(tmp=sum)
+	print(True)
+else
+	print(False)

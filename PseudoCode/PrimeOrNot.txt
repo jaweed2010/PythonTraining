@@ -1,0 +1,17 @@
+Algorithm::
+1. start
+2. declare integer variables num
+3. if num<=1 print False and end.
+4. For i from 2 to sqrt(n), check if any number divides num, if yes print False
+5. since no number had divided , this means number is prime, so print True
+6. end
+
+
+PseudoCode::
+num=read input
+if( n<=1)
+	print False and end
+for(i=2;i*i<=num;i+=2)
+	if(num%i=0)
+		print False
+print True
