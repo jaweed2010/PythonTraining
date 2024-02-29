@@ -13,6 +13,7 @@ print(prod(10, 20))
 li = [1, 2, 3, 4, 5]
 add2 = list(map(lambda x: x + 2, li))
 print(add2)
+li = [1, 2, 3, 4, 5]
 even = list(filter(lambda x: x % 2 == 0, li))
 print(even)
 
