@@ -3,4 +3,4 @@ def pal(s):
     return s == rev
 
 
-print(pal("hannah"))
+#print(pal("hannah"))
